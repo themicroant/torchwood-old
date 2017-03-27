@@ -1,0 +1,50 @@
+body {
+    font-family: 'Tahoma';
+    background-color: #999999;
+}
+.tile {
+    box-sizing: border-box;
+    position: absolute;
+    border: 1px solid rgba(0, 0, 0, 0);
+}
+
+.tile:hover {
+    border: 1px solid green;
+}
+
+.grass {
+    background-color: #006600;
+}
+
+.mountain {
+    background-color: #555555;
+}
+
+.selected {
+    border: 1px solid blue;
+}
+
+.selectable {
+    background: rgba(0,255,0,0.4)
+}
+
+.hero {
+    background: url('http://i.imgur.com/G4wtPRX.png') -33px -1px;  /* Spiky Orange */
+    background: url('http://i.imgur.com/G4wtPRX.png') -129px -1px; /* Pink Girl */
+    background: url('http://i.imgur.com/G4wtPRX.png') -225px -1px; /* Green Monk */
+    background: url('http://i.imgur.com/G4wtPRX.png') -321px -1px; /* Blue Girl */
+    background: url('http://i.imgur.com/G4wtPRX.png') -33px -129px;  /* Long Orange */
+    background: url('http://i.imgur.com/G4wtPRX.png') -129px -129px; /* Knight Girl*/
+    background: url('http://i.imgur.com/G4wtPRX.png') -225px -129px; /* Scar Face */
+    background: url('http://i.imgur.com/G4wtPRX.png') -321px -129px; /* Old Man */
+}
+
+.info {
+    width: 200px;
+    height: 400px;
+    position: absolute;
+    left: 260px;
+    top: 0px;
+    padding: 5px;
+    box-sizing: border-box;
+}
