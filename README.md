@@ -1,6 +1,6 @@
 # torchwood
 
-Psudo code:
+Pseudo code:
 
 clickOnPiece(){
   selectNewPiece();
